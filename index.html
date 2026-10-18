@@ -1,31 +1,77 @@
 
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AIR247 WhatsApp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AIR247 WhatsApp Redirect</title>
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <script>
+        const whatsappURL =
+            "https://wa.me/918983609887?text=Mujhe%20AIR247%20ka%20ID%20chahiye";
+
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                window.location.replace(whatsappURL);
+            }, 1000);
+        });
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        h2 {
+            color: #222;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 14px 24px;
+            background: #25D366;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="container">
+        <h2>AIR247</h2>
 
-  <a
-    href="https://wa.me/918983609887?text=Mujhe%20AIR247%20ka%20ID%20chahiye"
-    target="_blank"
-    rel="noopener noreferrer"
-    style="
-      display: inline-block;
-      background-color: #25D366;
-      color: white;
-      padding: 14px 25px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      font-weight: bold;
-    "
-  >
-    Get AIR247 ID on WhatsApp
-  </a>
+        <p>Redirecting to WhatsApp...</p>
+        <p>Please wait 1 second.</p>
 
+        <a
+            class="whatsapp-btn"
+            href="https://wa.me/918983609887?text=Mujhe%20AIR247%20ka%20ID%20chahiye"
+        >
+            Open WhatsApp
+        </a>
+    </div>
 </body>
 </html>
